@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# 🍽️ Recipe Finder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Recipe Finder es una aplicación web que permite **buscar recetas rápidas y deliciosas** utilizando la [API de Spoonacular](https://spoonacular.com/food-api). Solo ingresa un ingrediente o platillo, y obtendrás resultados con nombre, imagen y tiempo de preparación.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Demo
 
-### `npm start`
+👉 [Ver proyecto en Vercel](https://tu-enlace-aqui.vercel.app) *(pendiente de publicar)*
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📸 Screenshots
 
-### `npm test`
+*(Agrega capturas de pantalla de tu aplicación en acción, por ejemplo desde la carpeta `/public/screenshots`)*
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+| Búsqueda                             | Resultados                                    |
+| ------------------------------------ | --------------------------------------------- |
+| ![Home](public/screenshots/home.png) | ![Resultados](public/screenshots/results.png) |
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ Tecnologías utilizadas
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* **React** (Create React App)
+* **JavaScript (ES6+)**
+* **CSS3**
+* **Spoonacular API**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## ⚙️ Instalación y uso
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clona este repositorio:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   git clone https://github.com/Jdmora91/recipe-finder.git
+   cd recipe-finder
+   ```
+2. Instala dependencias:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+   npm install
+   ```
+3. Agrega tu API key de Spoonacular en un archivo `.env`:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```env
+   REACT_APP_SPOONACULAR_API_KEY=tu_api_key_aqui
+   ```
+4. Inicia el proyecto en desarrollo:
 
-## Learn More
+   ```bash
+   npm start
+   ```
+5. Abre en tu navegador:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```
+   http://localhost:3000
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 📦 Deploy
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Este proyecto se puede desplegar fácilmente en [Vercel](https://vercel.com/) o [Netlify](https://www.netlify.com/).
+Después del deploy, no olvides configurar tu variable de entorno con la API key.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🔮 Próximas mejoras
 
-### Making a Progressive Web App
+* Mejor diseño visual con **TailwindCSS** o **Material UI**.
+* Opción de guardar recetas favoritas en localStorage.
+* Filtrado avanzado por tiempo, calorías o tipo de comida.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 👨‍💻 Autor
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Creado con por [Jdmora91](https://github.com/Jdmora91).
