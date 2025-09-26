@@ -1,26 +1,29 @@
 # 🍽️ Recipe Finder
 
-Recipe Finder es una aplicación web que permite **buscar recetas rápidas y deliciosas** utilizando la [API de Spoonacular](https://spoonacular.com/food-api). Solo ingresa un ingrediente o platillo, y obtendrás resultados con nombre, imagen y tiempo de preparación.
+Recipe Finder is a web application that allows you to **search for recipes quickly and easily** using the [Spoonacular API](https://spoonacular.com/food-api).
+Just enter an ingredient or a dish name, and you’ll get a list of recipes with images, titles, and preparation time.
 
 ---
 
-## 🚀 Demo
+## 🚀 Live Demo
 
-👉 [Ver proyecto en Vercel](https://tu-enlace-aqui.vercel.app) *(pendiente de publicar)*
+👉 [View on Vercel](https://recipe-finder-jdmora91.vercel.app/)
 
 ---
 
 ## 📸 Screenshots
 
-*(Agrega capturas de pantalla de tu aplicación en acción, por ejemplo desde la carpeta `/public/screenshots`)*
+### Home Page
 
-| Búsqueda                             | Resultados                                    |
-| ------------------------------------ | --------------------------------------------- |
-| ![Home](public/screenshots/home.png) | ![Resultados](public/screenshots/results.png) |
+![Recipe Finder Screenshot](recipe-finder.png)
+
+### Search Example (Pasta)
+
+![Pasta Finder Screenshot](pasta-finder.png)
 
 ---
 
-## 🛠️ Tecnologías utilizadas
+## 🛠️ Tech Stack
 
 * **React** (Create React App)
 * **JavaScript (ES6+)**
@@ -29,30 +32,34 @@ Recipe Finder es una aplicación web que permite **buscar recetas rápidas y del
 
 ---
 
-## ⚙️ Instalación y uso
+## ⚙️ Installation & Usage
 
-1. Clona este repositorio:
+1. Clone the repository:
 
    ```bash
    git clone https://github.com/Jdmora91/recipe-finder.git
    cd recipe-finder
    ```
-2. Instala dependencias:
+
+2. Install dependencies:
 
    ```bash
    npm install
    ```
-3. Agrega tu API key de Spoonacular en un archivo `.env`:
+
+3. Add your Spoonacular API key in a `.env` file:
 
    ```env
-   REACT_APP_SPOONACULAR_API_KEY=tu_api_key_aqui
+   REACT_APP_SPOONACULAR_API_KEY=your_api_key_here
    ```
-4. Inicia el proyecto en desarrollo:
+
+4. Run the development server:
 
    ```bash
    npm start
    ```
-5. Abre en tu navegador:
+
+5. Open your browser at:
 
    ```
    http://localhost:3000
@@ -60,21 +67,21 @@ Recipe Finder es una aplicación web que permite **buscar recetas rápidas y del
 
 ---
 
-## 📦 Deploy
+## 📦 Deployment
 
-Este proyecto se puede desplegar fácilmente en [Vercel](https://vercel.com/) o [Netlify](https://www.netlify.com/).
-Después del deploy, no olvides configurar tu variable de entorno con la API key.
-
----
-
-## 🔮 Próximas mejoras
-
-* Mejor diseño visual con **TailwindCSS** o **Material UI**.
-* Opción de guardar recetas favoritas en localStorage.
-* Filtrado avanzado por tiempo, calorías o tipo de comida.
+This project can be easily deployed to [Vercel](https://vercel.com/) or [Netlify](https://www.netlify.com/).
+Make sure to configure your environment variables (API key) in the hosting platform.
 
 ---
 
-## 👨‍💻 Autor
+## 🔮 Roadmap
 
-Creado con por [Jdmora91](https://github.com/Jdmora91).
+* Improve UI/UX design with **TailwindCSS** or **Material UI**
+* Add favorites feature using localStorage
+* Advanced filters (time, calories, meal type)
+
+---
+
+## 👨‍💻 Author
+
+Created with by [Jdmora91](https://github.com/Jdmora91)
