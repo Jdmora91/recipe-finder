@@ -84,4 +84,4 @@ Make sure to configure your environment variables (API key) in the hosting platf
 
 ## 👨‍💻 Author
 
-Created with by [Jdmora91] (https://github.com/Jdmora91)
+## "JOSE D. MORA DEVELOPER" 
